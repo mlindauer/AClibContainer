@@ -57,49 +57,49 @@ From: ubuntu:18.04
 	wget http://aad.informatik.uni-freiburg.de/~lindauer/aclib/mip_RCW2.tar.gz
 	wget http://aad.informatik.uni-freiburg.de/~lindauer/aclib/ml_secom.tar.gz
     
-    tar xvfzsat_SWGCP.tar.gz
-	tar xvfzml_madelon.tar.gz
-	tar xvfzsat_UNSAT-UNIF-K5-CSSC14.tar.gz
-	tar xvfzml_shuttle.tar.gz
-	tar xvfzml_iris.tar.gz
-	tar xvfzsat_BMC08-CSSC14.tar.gz
-	tar xvfzsat_5SAT500-SAT-CSSC14.tar.gz
-	tar xvfzsat_IBM-CSSC14.tar.gz
-	tar xvfzasp_weighted-sequence.tar.gz
-	tar xvfzml_covertype.tar.gz
-	tar xvfzml_car.tar.gz
-	tar xvfzsat_3SAT1K-SAT-CSSC14.tar.gz
-	tar xvfzsat_CIRCUITFUZZ-CSSC14.tar.gz
-	tar xvfzmip_BCOL-CLS.tar.gz
-	tar xvfzsat_SWV-Calysto.tar.gz
-	tar xvfzsat_circuit_fuzz.tar.gz
-	tar xvfzsat_instances_satenstein.tar.gz.tar.gz
-	tar xvfzsat_FACTORING.tar.gz
-	tar xvfzsat_7sat90.tar.gz
-	tar xvfzsat_CBMC.tar.gz
-	tar xvfzsat_K3-CSSC14.tar.gz
-	tar xvfzsat_QUEENS-CSSC14.tar.gz
-	tar xvfzml_abalone.tar.gz
-	tar xvfzml_krvskp.tar.gz
-	tar xvfzml_waveform.tar.gz
-	tar xvfzml_yeast.tar.gz
-	tar xvfzmip_COR-LAT.tar.gz
-	tar xvfzsat_SWGCP_SAT.tar.gz
-	tar xvfzml_mnist.tar.gz
-	tar xvfzml_winequalitywhite.tar.gz
-	tar xvfzsat_3CNF-V350-CSSC14.tar.gz
-	tar xvfzmip_Regions200.tar.gz
-	tar xvfzsat_QCP.tar.gz
-	tar xvfzsat_hgen2-small.tar.gz
-	tar xvfzsat_k3-r4_26-v600.tar.gz
-	tar xvfzsat_7SAT90-SAT-CSSC14.tar.gz
-	tar xvfzsat_LABS-CSSC14.tar.gz
-	tar xvfzplanning_zenotravel.tar.gz
-	tar xvfzml_germancredit.tar.gz
-	tar xvfzsat_GI-CSSC14.tar.gz
-	tar xvfzml_semeion.tar.gz
-	tar xvfzmip_RCW2.tar.gz
-	tar xvfzml_secom.tar.gz
+    tar xfz sat_SWGCP.tar.gz
+	tar xfz ml_madelon.tar.gz
+	tar xfz sat_UNSAT-UNIF-K5-CSSC14.tar.gz
+	tar xfz ml_shuttle.tar.gz
+	tar xfz ml_iris.tar.gz
+	tar xfz sat_BMC08-CSSC14.tar.gz
+	tar xfz sat_5SAT500-SAT-CSSC14.tar.gz
+	tar xfz sat_IBM-CSSC14.tar.gz
+	tar xfz asp_weighted-sequence.tar.gz
+	tar xfz ml_covertype.tar.gz
+	tar xfz ml_car.tar.gz
+	tar xfz sat_3SAT1K-SAT-CSSC14.tar.gz
+	tar xfz sat_CIRCUITFUZZ-CSSC14.tar.gz
+	tar xfz mip_BCOL-CLS.tar.gz
+	tar xfz sat_SWV-Calysto.tar.gz
+	tar xfz sat_circuit_fuzz.tar.gz
+	tar xfz sat_instances_satenstein.tar.gz.tar.gz
+	tar xfz sat_FACTORING.tar.gz
+	tar xfz sat_7sat90.tar.gz
+	tar xfz sat_CBMC.tar.gz
+	tar xfz sat_K3-CSSC14.tar.gz
+	tar xfz sat_QUEENS-CSSC14.tar.gz
+	tar xfz ml_abalone.tar.gz
+	tar xfz ml_krvskp.tar.gz
+	tar xfz ml_waveform.tar.gz
+	tar xfz ml_yeast.tar.gz
+	tar xfz mip_COR-LAT.tar.gz
+	tar xfz sat_SWGCP_SAT.tar.gz
+	tar xfz ml_mnist.tar.gz
+	tar xfz ml_winequalitywhite.tar.gz
+	tar xfz sat_3CNF-V350-CSSC14.tar.gz
+	tar xfz mip_Regions200.tar.gz
+	tar xfz sat_QCP.tar.gz
+	tar xfz sat_hgen2-small.tar.gz
+	tar xfz sat_k3-r4_26-v600.tar.gz
+	tar xfz sat_7SAT90-SAT-CSSC14.tar.gz
+	tar xfz sat_LABS-CSSC14.tar.gz
+	tar xfz planning_zenotravel.tar.gz
+	tar xfz ml_germancredit.tar.gz
+	tar xfz sat_GI-CSSC14.tar.gz
+	tar xfz ml_semeion.tar.gz
+	tar xfz mip_RCW2.tar.gz
+	tar xfz ml_secom.tar.gz
     
     chmod -R 777 .
 
